@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F8AD4D71AB4F346003DA35F /* MJPEG.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F8AD4D61AB4F346003DA35F /* MJPEG.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F8AD4DD1AB4F346003DA35F /* MJPEG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8AD4D11AB4F346003DA35F /* MJPEG.framework */; };
 		1F8AD4E41AB4F346003DA35F /* MJPEGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8AD4E31AB4F346003DA35F /* MJPEGTests.swift */; };
 /* End PBXBuildFile section */
@@ -25,7 +24,6 @@
 /* Begin PBXFileReference section */
 		1F8AD4D11AB4F346003DA35F /* MJPEG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJPEG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8AD4D51AB4F346003DA35F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F8AD4D61AB4F346003DA35F /* MJPEG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJPEG.h; sourceTree = "<group>"; };
 		1F8AD4DC1AB4F346003DA35F /* MJPEGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJPEGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8AD4E21AB4F346003DA35F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F8AD4E31AB4F346003DA35F /* MJPEGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJPEGTests.swift; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 		1F8AD4D31AB4F346003DA35F /* MJPEG */ = {
 			isa = PBXGroup;
 			children = (
-				1F8AD4D61AB4F346003DA35F /* MJPEG.h */,
 				1F8AD4D41AB4F346003DA35F /* Supporting Files */,
 			);
 			path = MJPEG;
@@ -109,7 +106,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F8AD4D71AB4F346003DA35F /* MJPEG.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +315,7 @@
 		1F8AD4E81AB4F346003DA35F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_STATIC_ANALYZER_MODE = deep;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -327,6 +324,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -334,6 +332,7 @@
 		1F8AD4E91AB4F346003DA35F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_STATIC_ANALYZER_MODE = deep;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -342,6 +341,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -395,6 +395,7 @@
 				1F8AD4E91AB4F346003DA35F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F8AD4EA1AB4F346003DA35F /* Build configuration list for PBXNativeTarget "MJPEGTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +404,7 @@
 				1F8AD4EC1AB4F346003DA35F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		1F8AD4DD1AB4F346003DA35F /* MJPEG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8AD4D11AB4F346003DA35F /* MJPEG.framework */; };
 		1F8AD4E41AB4F346003DA35F /* MJPEGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8AD4E31AB4F346003DA35F /* MJPEGTests.swift */; };
+		1F8AD4F21AB4F4D2003DA35F /* ConnectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8AD4EE1AB4F4D2003DA35F /* ConnectionData.swift */; };
+		1F8AD4F31AB4F4D2003DA35F /* MjepgConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8AD4EF1AB4F4D2003DA35F /* MjepgConnection.swift */; };
+		1F8AD4F41AB4F4D2003DA35F /* URLConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8AD4F01AB4F4D2003DA35F /* URLConnection.swift */; };
+		1F8AD4F51AB4F4D2003DA35F /* URLConnectionDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8AD4F11AB4F4D2003DA35F /* URLConnectionDataDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,10 @@
 		1F8AD4DC1AB4F346003DA35F /* MJPEGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJPEGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8AD4E21AB4F346003DA35F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F8AD4E31AB4F346003DA35F /* MJPEGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MJPEGTests.swift; sourceTree = "<group>"; };
+		1F8AD4EE1AB4F4D2003DA35F /* ConnectionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionData.swift; sourceTree = "<group>"; };
+		1F8AD4EF1AB4F4D2003DA35F /* MjepgConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MjepgConnection.swift; sourceTree = "<group>"; };
+		1F8AD4F01AB4F4D2003DA35F /* URLConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLConnection.swift; sourceTree = "<group>"; };
+		1F8AD4F11AB4F4D2003DA35F /* URLConnectionDataDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLConnectionDataDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				1F8AD4D41AB4F346003DA35F /* Supporting Files */,
+				1F8AD4ED1AB4F4D2003DA35F /* Connection */,
 			);
 			path = MJPEG;
 			sourceTree = "<group>";
@@ -97,6 +106,17 @@
 				1F8AD4E21AB4F346003DA35F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F8AD4ED1AB4F4D2003DA35F /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				1F8AD4EE1AB4F4D2003DA35F /* ConnectionData.swift */,
+				1F8AD4EF1AB4F4D2003DA35F /* MjepgConnection.swift */,
+				1F8AD4F01AB4F4D2003DA35F /* URLConnection.swift */,
+				1F8AD4F11AB4F4D2003DA35F /* URLConnectionDataDelegate.swift */,
+			);
+			path = Connection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +225,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F8AD4F21AB4F4D2003DA35F /* ConnectionData.swift in Sources */,
+				1F8AD4F41AB4F4D2003DA35F /* URLConnection.swift in Sources */,
+				1F8AD4F51AB4F4D2003DA35F /* URLConnectionDataDelegate.swift in Sources */,
+				1F8AD4F31AB4F4D2003DA35F /* MjepgConnection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

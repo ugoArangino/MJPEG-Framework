@@ -13,6 +13,7 @@
 		1F8AD4F31AB4F4D2003DA35F /* MjepgConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8AD4EF1AB4F4D2003DA35F /* MjepgConnection.swift */; };
 		1F8AD4F41AB4F4D2003DA35F /* URLConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8AD4F01AB4F4D2003DA35F /* URLConnection.swift */; };
 		1F8AD4F51AB4F4D2003DA35F /* URLConnectionDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8AD4F11AB4F4D2003DA35F /* URLConnectionDataDelegate.swift */; };
+		1FD51D2E1AB51A6B00F8023A /* MJPEGImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD51D2D1AB51A6B00F8023A /* MJPEGImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		1F8AD4EF1AB4F4D2003DA35F /* MjepgConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MjepgConnection.swift; sourceTree = "<group>"; };
 		1F8AD4F01AB4F4D2003DA35F /* URLConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLConnection.swift; sourceTree = "<group>"; };
 		1F8AD4F11AB4F4D2003DA35F /* URLConnectionDataDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLConnectionDataDelegate.swift; sourceTree = "<group>"; };
+		1FD51D2D1AB51A6B00F8023A /* MJPEGImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJPEGImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				1F8AD4D41AB4F346003DA35F /* Supporting Files */,
 				1F8AD4ED1AB4F4D2003DA35F /* Connection */,
+				1FD51D2C1AB51A6B00F8023A /* Image */,
 			);
 			path = MJPEG;
 			sourceTree = "<group>";
@@ -117,6 +120,14 @@
 				1F8AD4F11AB4F4D2003DA35F /* URLConnectionDataDelegate.swift */,
 			);
 			path = Connection;
+			sourceTree = "<group>";
+		};
+		1FD51D2C1AB51A6B00F8023A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				1FD51D2D1AB51A6B00F8023A /* MJPEGImageView.swift */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +239,7 @@
 				1F8AD4F21AB4F4D2003DA35F /* ConnectionData.swift in Sources */,
 				1F8AD4F41AB4F4D2003DA35F /* URLConnection.swift in Sources */,
 				1F8AD4F51AB4F4D2003DA35F /* URLConnectionDataDelegate.swift in Sources */,
+				1FD51D2E1AB51A6B00F8023A /* MJPEGImageView.swift in Sources */,
 				1F8AD4F31AB4F4D2003DA35F /* MjepgConnection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,8 @@
 # MJPEG Framework
 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
+
 A MJPEG Framework for iOS
 
 **MJPEGConnection** is a NSURLConnection subclass that takes an url, username and password. 
@@ -24,3 +27,7 @@ if let url = NSURL(string: urlString) {
 ```
 
 Make sure that the class of the `UIImageView` outlet is `MJPEGImageView` and the Module is `MJPEG`.
+
+## Install with Carthage
+
+	github "ugoArangino/MJPEG-Framework" >= 1.0.0

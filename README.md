@@ -28,6 +28,6 @@ if let url = NSURL(string: urlString) {
 
 Make sure that the class of the `UIImageView` outlet is `MJPEGImageView` and the Module is `MJPEG`.
 
-## Install with Carthage
+## Install with [Carthage](https://github.com/Carthage/Carthage)
 
 	github "ugoArangino/MJPEG-Framework" >= 1.0.0

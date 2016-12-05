@@ -1,9 +1,3 @@
-I have expanded #[AlamofireImage](https://github.com/ugoArangino/AlamofireImage) for dealing with #MJPEG-Streams
-
-![Screenshot](https://pbs.twimg.com/media/Cqvo14mXgAAIp9c.jpg:large)
-
----
-
 # MJPEG Framework
 
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
@@ -37,3 +31,11 @@ Make sure that the class of the `UIImageView` outlet is `MJPEGImageView` and the
 ## Install with [Carthage](https://github.com/Carthage/Carthage)
 
 	github "ugoArangino/MJPEG-Framework" >= 1.0.0
+
+---
+
+## AlamofireImage
+
+I have extended #[AlamofireImage](https://github.com/Alamofire/AlamofireImage/pull/185) for dealing with #MJPEG-Streams
+
+![Screenshot](https://pbs.twimg.com/media/Cqvo14mXgAAIp9c.jpg:large)
